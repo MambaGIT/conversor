@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="Menu-desktop">
+            <button id="btn1" onclick="Funciona()" > Como Funciona?
+            </button>
+            <button id="btn2" onclick="Usar()"> Como usar?
+            </button>
+            <button id="btn3" onclick="Info()"> + informações
+            </button>
+            <div class="sombra sombra1"></div>
+            <div class="sombra sombra2"></div>
+            <div class="sombra sombra3"></div>
+        </div>
+
+        <div id="titulo">
+            <h5 id="title" class="titulo_principal">
+                Conversor de Produtos
+            </h5>
+        </div>
+        <div id="banner">
+            <div id="logo">
+                <img src="logo.png" alt="">
+            </div>            
+        </div>
+        <div id="texto1">
+            <h2>
+                Conversor de Produtos é um software para otimizar o cadastramento de produtos, com uso desse software é possível replicar todos os seus produtos da sua conta Mercado Livre para o ERP da sua operação (Bling ou Tiny).
+                O Sistema consegue transmitir todos os dados necessários para o cadastro dos seus produtos, e cerca de 95% dos dados complementares.
+            </h2>
+        </div>
+
+        <div>
+            <div id="titulo" class="funciona">
+                <h1 id="title">
+                    Como Funciona?
+                </h1>
+            </div>
+            <div id="container_como">
+                <div id="como_funciona">
+                    <div class="div_interna div_interna1">
+                        <div id="imagem_planilha">
+                            <img src="planilhas.png" alt="">
+                        </div>
+                                                
+                        <div class="gearbox">
+                            <div class="overlay"></div>
+                            <div class="gear one">
+                                <div class="gear-inner">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                </div>
+                            </div>
+                            <div class="gear two">
+                                <div class="gear-inner">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </div>
+
+                    <div class="div_interna div_interna2">
+                        <h2 id="Funciona">
+                            Para cadastrar manualmente produtos do Mercado Livre em seu ERP, é necessário copiar e colocar todos os campos de todos os produtos, porém o software trabalha de forma mais otimizada utilizando planilhas, convertendo diretamente as mesmas em um formato que seu ERP consiga entender automaticamente. Com apenas a planilha de dados fiscais o Conversor utiliza API do Mercado livre para completar os dados e depois os reorganiza-los de forma assertiva para uma correta operação de cadastro.                      
+                         </h2>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div id="titulo">
+            <h1 id="title" class="usar">
+                Como usar?
+            </h1>
+        </div>
+        <div id="banner">
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9gDS-W1hSOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>            
+        </div>
+        <div id="texto2">
+            <div id="passos">
+                <h2>1.Baixe a Planilha "Dados fiscais" do Mercado Livre.<br>
+                    2.Abra o seu "Conversor de Produtos".<br>
+                    3.Defina o Nome do Cliente<br>
+                    4.Escolha o seu Sistema(ERP)<br>
+                    5.Clique no botão "selecionar Arquivo"<br>
+                    6.selecione a planilha do ML que baixou no passo 1<br>
+                    7.clique no botão "Gerar Planilha" <br>
+                    8.Espere até aparecer a mensagem "Concluido com sucesso" <br>
+                    9.Acesse a pasta "Clientes" <br>
+                    10.Sua planilha está pronta e agora é só subir para o ERP! <br>
+                </h2>
+                <h3>
+                    Observação: quando subir as planilhas para o ERP, siga a ordem de primeiro todos produtos simples e depois as suas variações.
+                </h3>
+            </div>
+        </div>
+
+        <div id="titulo">
+            <h1 id="title" class="info">
+                Mais informações
+            </h1>
+        </div>
+        <div id="maisinfo">
+            <div class="minidiv">
+                <a href="tutorial.html" target="_blank">
+                    <img src="mercado_livre.png" alt="">
+                </a>
+                    <h2 class="pouco_texto"> Como baixar Planilha ML</h2>
+            </div>
+            <div class="minidiv minidiv2">
+                <a href="https://www.youtube.com/watch?v=huKRN_BU39E" target="_blank">
+                    <img src="bling.jpg" alt="">
+                </a>
+                <h2 class="pouco_texto"> Como subir planilha no Bling</h2>
+            </div>
+            <div class="minidiv minidiv3">
+                <a href="https://ajuda.tiny.com.br/hc/pt-br/articles/4415600152596-Importar-planilha-de-produtos" target="_blank">
+                    <img src="tiny.png" alt="">
+                </a>
+                <h2 class="pouco_texto"> Como subir planilha no Tiny</h2>
+            </div>   
+        </div>
+        <div id="rodape">
+            <h1> Desenvolvido por Rafael Diniz - todos os direitos reservados</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function Funciona() {
+        var elemento = document.querySelector(".funciona");
+        elemento.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
+    }
+    function Usar() {
+        var elemento = document.querySelector(".usar");
+        elemento.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
+    }
+    function Info() {
+        var elemento = document.querySelector(".info");
+        elemento.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+
+    //id"Funciona"
+</script>
