@@ -130,21 +130,21 @@ button {
 #btn1{
     position: fixed;
     margin-top: 30px;
-    width: 210px;
+    width: 230px;
     left: 10px;
 }
 
 #btn2{
     position: fixed;
     margin-top: 90px;
-    width: 210px;
+    width: 230px;
     left: 10px;
 }
 
 #btn3{
     position: fixed;
     margin-top: 150px;
-    width: 210px;
+    width: 230px;
     left: 10px;
 }
 
