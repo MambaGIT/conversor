@@ -495,9 +495,14 @@ h3{
   body {
 /*    background-color: rgb(64, 74, 78);*/
   }
+
+  #title{
+    font-size: 35px !important;
+  }
+
   .titulo_principal{
 /*    color: #5e3fda !important;*/
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   #como_funciona{
     display: block;
@@ -529,6 +534,12 @@ h3{
   }
   .div_engrenagem {
     visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .titulo_principal{
+    font-size: 20px !important;
   }
 }
 /*-----------------------------------------------------------------------------*/
