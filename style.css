@@ -11,7 +11,8 @@
 }
 
 body {
-    background-color: #7559EA;
+  overflow-x: hidden;
+  background-color: #7559EA;
 }
 
 #banner {
