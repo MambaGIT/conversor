@@ -519,6 +519,8 @@ h3{
   #video{
     max-width: 95%;
     margin: 0 auto;
+    max-height: 250px;
+    padding-bottom: 50px;
   }
   #maisinfo{
     display: block;
@@ -537,9 +539,16 @@ h3{
   }
 }
 
-@media only screen and (max-width: 577px) {
-  .titulo_principal{
-    font-size: 20px !important;
+@media only screen and (max-width: 676px) {
+  #title h1{
+    font-size: 35px !important;
   }
+
+  .titulo_principal{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+
 }
 /*-----------------------------------------------------------------------------*/
